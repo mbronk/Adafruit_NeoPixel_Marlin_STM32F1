@@ -45,6 +45,10 @@
 
 #include "Adafruit_NeoPixel.h"
 
+//Locate Delay.h file in your local Marlin copy: Marlin 2.0/Marlin/Marlin/src/HAL/shared/Delay.h
+//and enter full path to this file below
+
+#include "../../../../Marlin/src/HAL/shared/Delay.h"
 #if defined(TARGET_LPC1768)
 #include <time.h>
 #endif
